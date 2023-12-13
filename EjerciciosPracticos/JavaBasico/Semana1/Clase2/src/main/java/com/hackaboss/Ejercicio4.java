@@ -94,7 +94,7 @@ public class Ejercicio4 {
   }
 
   private void printSeatMap() {
-    System.out.print(" ");
+    System.out.print("\t ");
     for (int i = 0; i < LENGTH; i++) {
       System.out.print("  " + i);
     }
@@ -102,7 +102,7 @@ public class Ejercicio4 {
     for (int i = 0; i < LENGTH; i++) {
       for (int j = 0; j < LENGTH; j++) {
         if (j == 0) {
-          System.out.print(i);
+          System.out.print("\t" + i);
           System.out.print("  " + this.seats[i][j]);
         } else {
           System.out.print("  " + this.seats[i][j]);
@@ -110,6 +110,7 @@ public class Ejercicio4 {
       }
       System.out.println();
     }
+    System.out.println();
   }
 
   public static void main(String[] args) {
@@ -118,10 +119,10 @@ public class Ejercicio4 {
     int row = 0;
     int col = 0;
     Ejercicio4 theater = new Ejercicio4();
-
+    
     System.out.println("Bienvenid@ al sistema de reservas");
     System.out.println("---------------------------------");
-    System.out.println("Recuerde que los valores van del 0 al " + (LENGTH - 1) + ", ambos incluidos");
+    System.out.println("Recuerde que los valores van del 0 al " + (LENGTH - 1) + ", ambos incluidos\n");
 
     theater.printSeatMap();
 
@@ -132,7 +133,7 @@ public class Ejercicio4 {
       }
       System.out.println("Por favor, introduzca la fila del asiento a reservar: ");
       row = sc.nextInt();
-      while (row < 0 || row > theater.getLength()) {
+      while (row < 0 || row >= theater.getLength()) {
         System.out.println("El valor debe ser entre 0 y 4, ambos incluidos: ");
         row = sc.nextInt();
       }
@@ -140,7 +141,7 @@ public class Ejercicio4 {
       System.out.println("Ahora, introduzca la columna: ");
       col = sc.nextInt();
 
-      while (col < 0 || col > theater.getLength()) {
+      while (col < 0 || col >= theater.getLength()) {
         System.out.println("El valor debe ser entre 0 y 4, ambos incluidos: ");
         col = sc.nextInt();
       }
