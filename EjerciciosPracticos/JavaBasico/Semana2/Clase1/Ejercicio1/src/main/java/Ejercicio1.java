@@ -1,7 +1,9 @@
+import java.util.Arrays;
+
 /**
  * <h1>Ejercicio N&ordm; 1 - Herencia, Polimorfismo y Encapsulamiento - Individual</h1>
  * <p>
- *     Crear una clase "Animal" con los atributos: id, nombre, edad, tipo de piel y tipo de alimentación (con sus métodos y constructores correspondientes). Agregar también un método llamado saludar que emita un mensaje por pantalla que diga “Hola, soy un animal”. A partir de esto hacer lo siguientes pasos:
+ * Crear una clase "Animal" con los atributos: id, nombre, edad, tipo de piel y tipo de alimentación (con sus métodos y constructores correspondientes). Agregar también un método llamado saludar que emita un mensaje por pantalla que diga “Hola, soy un animal”. A partir de esto hacer lo siguientes pasos:
  * </p>
  * <ul type=a>
  *     <li>
@@ -31,6 +33,7 @@
  */
 
 public class Ejercicio1 {
+
     public static void main(String[] args) {
         Mammal mammal = new Mammal();
         Bird bird = new Bird();
