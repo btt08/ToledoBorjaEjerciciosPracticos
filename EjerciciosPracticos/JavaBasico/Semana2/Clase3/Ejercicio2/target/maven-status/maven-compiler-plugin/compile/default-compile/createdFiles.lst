@@ -1,0 +1,8 @@
+com\hackaboss\ejercicio2\persistence\exceptions\PreexistingEntityException.class
+com\hackaboss\ejercicio2\persistence\exceptions\NonexistentEntityException.class
+com\hackaboss\ejercicio2\persistence\PersistenceController.class
+com\hackaboss\ejercicio2\persistence\exceptions\IllegalOrphanException.class
+com\hackaboss\ejercicio2\Ejercicio2.class
+com\hackaboss\ejercicio2\models\Dish_.class
+com\hackaboss\ejercicio2\models\Dish.class
+com\hackaboss\ejercicio2\service\DishJpaController.class
