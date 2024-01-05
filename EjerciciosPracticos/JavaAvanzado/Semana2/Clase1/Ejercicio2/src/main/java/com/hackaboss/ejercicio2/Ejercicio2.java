@@ -64,7 +64,7 @@ public class Ejercicio2 {
     countByCategory();
     System.out.println();
     getNearestEvent();
-
+    
 //    System.out.println("\n\n\n");
 //    eventList.forEach(event -> {
 //      System.out.println(event.getDate());

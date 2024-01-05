@@ -69,8 +69,12 @@ public class Ejercicio1 {
     System.out.println("");
     employeeList.forEach(System.out::println);
     getHighestEarner();
-    
+
     System.out.println("Las medias de salarios por categoría son: ");
     groupByCatAndGetAVGSalary();
+    
+     String s = "hola";
+     
+     System.out.println(s instanceof String);
   }
 }
